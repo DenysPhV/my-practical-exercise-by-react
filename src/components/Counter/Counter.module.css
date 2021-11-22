@@ -1,0 +1,6 @@
+.container {
+  border: 1px solid tomato;
+
+  display: flex;
+  justify-content: center;
+}

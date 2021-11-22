@@ -1,11 +1,14 @@
-import PaintingList from './components/PaintingList';
+// import PaintingList from './components/PaintingList';
 
-import paintings from './paintings.json';
+// import paintings from './paintings.json';
+
+import Counter from 'components/Counter';
 
 function App() {
   return (
     <div>
-      <PaintingList items={paintings} />
+      <Counter />
+      {/* <PaintingList items={paintings} /> */}
     </div>
   );
 }
