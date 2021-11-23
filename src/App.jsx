@@ -2,12 +2,14 @@
 
 // import paintings from './paintings.json';
 
-import Counter from 'components/Counter';
+// import Counter from 'components/Counter';
+import Dropdown from 'components/Dropdown/Dropdown';
 
 function App() {
   return (
     <div>
-      <Counter />
+      <Dropdown />
+      {/* <Counter /> */}
       {/* <PaintingList items={paintings} /> */}
     </div>
   );
